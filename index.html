@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Игра - Угадайка</title>
+	<link rel="stylesheet" type="text/css" href="guess_style.css"/>
+</head>
+<body>
+	<div class="game_window">
+		<div class="game_field">
+			<h1>Игра - "Угадай число"</h1>
+			<h3>Выберите тип игры:</h3>
+			<div class="check_game_mode">
+				<div class="people_game">
+					<input type="radio" id="people_game" name="game_mode" val="people" checked><label for="people_game">Загадывает человек</label></input>
+				</div>
+				<div class="computer_game">
+					<input type="radio" id="computer_game" name="game_mode" val="computer"><label for="computer_game">Загадывает компьютер</label></input>
+				</div>
+			</div>
+			<div id="descr_game_mode">Ручной ввод числа и количества попыток.</div>
+			<div class="hand_input_field">
+				<input id="guess_number" type="text"/>
+				<input id="attempts" type="text"/>
+			</div>
+			<input class="start_game_button" type="button" value="Начать игру"/>
+			<p>Если Вам надоело угадывать, введите вместо числа "выход" или "exit".</p>
+		</div>
+	</div>
+	<script src="jQuery.js"></script>
+	<script src="guess_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+.game_window{
+	width: 100%;
+	height: 100%;
+	background-color: #90A4FF;
+	text-align: center;
+	padding: 25px;
+}
+.game_field{
+	padding: 25px;
+	margin: 25px auto;
+	width: 500px;
+	height: 100%;
+	background-color: #FFFF85;
+}
+#people_game:hover, 
+#computer_game:hover,
+label:hover{
+	cursor: pointer;
+}
+.hidden{
+	display: none;
+}
+.error{
+	color: red;
+	border: 1px solid red;
+}
+.people_game{
+	width: 49%;
+	float: left;
+}
+.check_game_mode{
+	margin: 25px 0;
+}
+#descr_game_mode{
+	width: 100%;
+	height: 25px;
+}
+.start_game_button{
+	margin: 25px;
+}
